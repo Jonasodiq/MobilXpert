@@ -1,6 +1,6 @@
 # MobilXpert
 
-![Login-form-app](https://github.com/Jonasodiq/my-portfolio/blob/main/assets/images/portfolio.png)
+![Login-form-app](https://github.com/Jonasodiq/MobilXpert/blob/main/img/mobilxpert.png)
 
 ✅ [Check out my YouTube Channel with all of my tutorials](https://www.youtube.com).
 
