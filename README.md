@@ -39,4 +39,4 @@
 
 **Summary:**
     _The MobilXpert website is a professional and informative platform aimed at those in need of mobile phone repairs and electronics servicing. With a user-friendly design and clear information about services and the company's values, the website aims to attract and serve visitors efficiently._
-### [Link to](https://silver-my-portfolio.netlify.app/)
+### [Link to](https://mobil-xpert.netlify.app)
