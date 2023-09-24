@@ -1,87 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="ie=edge"
-    />
-    <link
-      rel="stylesheet"
-      href="vendors/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="vendors/bootstrap.css"
-    />
-    <link
-      rel="stylesheet"
-      href="css/style.css"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="vendors/css/all.css"/>
+    <link rel="stylesheet" href="vendors/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
     <title>MobilXpert</title>
   </head>
-
   <body>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="container">
-        <a
-          href="index.html"
-          class="navbar-brand"
-          >MobilXpert</a
-        >
-        <button
-          class="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-        >
+        <!-- Logo -->
+        <a href="index.html" class="navbar-brand font-weight-bold">MobilXpert</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse"
-          id="navbarCollapse"
-        >
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a
-                href="index.html"
-                class="nav-link"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="services.html"
-                class="nav-link"
-                >Services</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="blog.html"
-                class="nav-link"
-                >Blog</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="about.html"
-                class="nav-link"
-                >About Us</a
-              >
-            </li>
-
-            <li class="nav-item">
-              <a
-                href="contact.html"
-                class="nav-link"
-                >Contact</a
-              >
-            </li>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto font-weight-bold">
+            <li class="nav-item active"><a href="index.html" class="nav-link">Hem</a></li>
+            <li class="nav-item"><a href="services.html" class="nav-link">Tjänster</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">Om oss</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Kontakt</a></li>
           </ul>
         </div>
       </div>
@@ -89,141 +36,85 @@
 
     <!-- SHOWCASE SLIDER -->
     <section id="showcase">
-      <div
-        id="myCarousel"
-        class="carousel slide"
-        data-ride="carousel"
-      >
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li
-            data-target="#myCarousel"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li
-            data-target="#myCarousel"
-            data-slide-to="1"
-          ></li>
-          <li
-            data-target="#myCarousel"
-            data-slide-to="2"
-          ></li>
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
+        <!-- Carousel-1 -->
         <div class="carousel-inner">
           <div class="carousel-item carousel-image-1 active">
             <div class="container">
               <div class="carousel-caption d-none d-sm-block text-right mb-5">
-                <h1 class="display-2">MobilXpert</h1>
+                <h1 class="display-2 text-primary">MobilXpert</h1>
                 <p class="lead">
-                  Få nytt liv i din mobil! Har din mobil börjat fungera sämre?
-                  <br />
+                  Få nytt liv i din mobil! Har din mobil börjat fungera sämre?<br/>
                   Kom förbi oss och se vilka möjligheter som finns.
                 </p>
-                <a
-                  href="#"
-                  class="btn btn-danger btn-lg"
-                  >Sign Up Now</a
-                >
+                <a href="#" class="btn btn-danger btn-lg">Bli Medlem</a>
               </div>
             </div>
           </div>
-
+          <!-- Carousel-2 -->
           <div class="carousel-item carousel-image-2">
             <div class="container">
               <div class="carousel-caption d-none d-sm-block text-right mb-5">
-                <h1 class="display-2">150kr rabatt på mobilreparation</h1>
+                <h1 class="display-2"><span class="sale">150kr</span> rabatt <br> på mobilreparation</h1>
                 <p class="lead">Tillfälligt erbjudande på mobil reparationer</p>
-                <a
-                  href="#"
-                  class="btn btn-primary btn-lg"
-                  >Learn More</a
-                >
+                <a href="#" class="btn btn-primary btn-lg">Lär mer</a>
               </div>
             </div>
           </div>
-
+          <!-- Carousel-3 -->
           <div class="carousel-item carousel-image-3">
             <div class="container">
               <div class="carousel-caption d-none d-sm-block text-right mb-5">
                 <h1 class="display-2">Våra kampanjer</h1>
-                <p class="lead">
-                  Läs mer om vilka kampanjer vi erbjuder för reparationer och
-                  service.
-                </p>
-                <a
-                  href="#"
-                  class="btn btn-success btn-lg"
-                  >Learn More</a
-                >
+                <p class="lead">Läs mer om vilka kampanjer vi erbjuder för reparationer och service.</p>
+                <a href="#" class="btn btn-success btn-lg">Läs mer</a>
               </div>
             </div>
           </div>
         </div>
-
-        <a
-          href="#myCarousel"
-          data-slide="prev"
-          class="carousel-control-prev"
-        >
+        <!-- Arrow -->
+        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
           <span class="carousel-control-prev-icon"></span>
         </a>
-
-        <a
-          href="#myCarousel"
-          data-slide="next"
-          class="carousel-control-next"
-        >
+        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
           <span class="carousel-control-next-icon"></span>
         </a>
       </div>
     </section>
+
     <!-- Home-icons -->
-    <div
-      id="home-icons"
-      class="my-5 text-center"
-    >
+    <div id="home-icons" class="my-5 text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <i class="fas fa-cog fa-3x mb-3"></i>
-            <h1>Safest Service</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-              aperiam?
-            </p>
+            <i class="bi bi-gear text-primary"  style="font-size: 54px;"></i>
+            <h1>Säkraste tjänsten</h1>
+            <p>Som Apple certifierad tredjeparts reparatörer har vi avtal och tillgång till deras verktyg och komponenter samt information, vilket ger oss möjligheten till att utföra en service med Apple utrustning från en av våra certifierade tekniker.</p>
           </div>
           <div class="col-md-4">
-            <i class="fas fa-cloud fa-3x mb-3"></i>
-            <h1>Sending Data</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-              aperiam?
-            </p>
+            <i class="bi bi-cloud-check text-primary"  style="font-size: 54px;"></i>
+            <h1>Skickar data</h1>
+            <p>Vi gör genom olika metoder och protokoll, inklusive e-post, filöverföring, webbdata-överföring, streaming av multimedia och mycket mer. Vi gör genom olika metoder och protokoll, inklusive e-post, filöverföring,</p>
           </div>
           <div class="col-md-4">
-            <i class="fas fa-cart-plus fa-3x mb-3"></i>
-            <h1>Making Money</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-              aperiam?
-            </p>
+            <i class="bi bi-cash-coin text-primary"  style="font-size: 54px;"></i>
+            <h1>Tjäna pengar</h1>
+            <p>Pengar ger ekonomisk trygghet och stabilitet. Detta ger dig en känsla av lugn och minskar stressen som följer med ekonomiska problem.</p>
           </div>
         </div>
       </div>
     </div>
     <!-- Box -->
-    <div
-      id="bg-box"
-      class="text-center text-white"
-    >
+    <div id="bg-box" class="text-center text-beige">
       <div class="dark-overlay py-5">
-        <div class="conrainer">
-          <h1>Are you ready to get Started?</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            ipsum saepe sequi dolor, nemo eaque modi laborum facere aliquid.
-            Molestias.
-          </p>
+        <div class="container">
+          <h1>Är du redo att komma igång?</h1>
+          <p>När du är redo att komma igång, öppnar du dörren till nya erfarenheter, <br> lärdomar och möjligheter som kan förändra ditt liv på ett positivt sätt.</p>
         </div>
       </div>
     </div>
@@ -232,291 +123,132 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 align-self-center">
-            <h3>About us</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
-              nam corporis odit laborum omnis sapiente quod quas dicta neque
-              modi.
-            </p>
-            <a
-              href="about.html"
-              class="btn btn-outline-danger"
-              >Laern More></a
-            >
+            <h3>Om oss</h3>
+            <p>Vi på <span class="text-primary font-weight-bold">MobilXpert</span> erbjuder reparationstjänster i världsklass för bland annat mobiltelefoner, surfplattor, bärbara datorer och mer, vi tackar aldrig nej till en utmaning! Vi är dedikerade till att förse dig med dem bästa tänkbara lösningarna för dig och dina enheter. Med nio år i branschen under bältet och många fler framöver är vårat primära syfte att du som kund lämnar butiken med ett leende på läpparna och en fungerande enhet!</p>
+            <a href="about.html" class="btn btn-outline-danger">Läs mer</a>
           </div>
           <div class="col-md-6">
-            <img
-              src="img/laptop.png"
-              class="img-fluid"
-              alt=""
-            />
+            <img src="img/laptop.png" class="img-fluid" alt=""/>
           </div>
         </div>
       </div>
     </div>
     <!-- What we do -->
-    <div
-      id="what-we-do"
-      class="text-center text-white"
-    >
+    <div id="what-we-do" class="text-center text-white">
       <div class="dark-overlay py-5">
-        <a
-          class="fas fa-play fa-5x"
-          href="https://www.youtube.com/watch?v=dYnplx_DVHs"
-          target="_blank"
-        ></a>
-        <h3 class="mt-3">See what we do?</h3>
+        <a class="fas fa-play fa-5x" href="https://www.youtube.com/watch?v=dYnplx_DVHs"target="_blank"></a>
+        <h3 class="mt-3">Kolla vad vi gör?</h3>
       </div>
     </div>
     <!-- Gallery -->
-    <div
-      id="gallery"
-      class="mt-5"
-    >
+    <div id="gallery" class="m-5">
       <div class="container">
         <div class="row text-center">
           <div class="col">
-            <h1>Photo Gallery</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi,
-              saepe.
-            </p>
+            <h1>Foto Galleri</h1>
           </div>
         </div>
-
         <div class="row">
           <div class="col-md-4 mt-4">
-            <img
-              src="img/carousel1.jpg"
-              alt=""
-              class="img-fluid"
-            />
+            <img src="img/Cell-display.jpeg" alt="" class="img-fluid"/>
           </div>
           <div class="col-md-4 mt-4">
-            <img
-              src="img/carousel2.jpg"
-              alt=""
-              class="img-fluid"
-            />
+            <img src="img/broke-phone.jpeg" alt="" class="img-fluid"/>
           </div>
           <div class="col-md-4 mt-4">
-            <img
-              src="img/carousel3.jpg"
-              alt=""
-              class="img-fluid"
-            />
+            <img src="img/Phone-Repair.jpeg" alt="" class="img-fluid"/>
           </div>
           <div class="col-md-4 mt-4">
-            <img
-              src="img/carousel4.jpg"
-              alt=""
-              class="img-fluid"
-            />
+            <img src="img/repair-3.jpg" alt="" class="img-fluid"/>
           </div>
           <div class="col-md-4 mt-4">
-            <img
-              src="img/carousel5.jpg"
-              alt=""
-              class="img-fluid"
-            />
+            <img src="img/repair-1.jpg" alt="" class="img-fluid"/>
           </div>
           <div class="col-md-4 mt-4">
-            <img
-              src="img/carousel5.jpeg"
-              alt=""
-              class="img-fluid"
-            />
+            <img src="img/repair-2.jpg" alt="" class="img-fluid"/>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
-      <div class="row pt-5">
-        <div class="col-lg-3 col-md-6 mb-5">
-          <a
-            href=""
-            class="font-weight-bold text-primary mb-4 p-0"
-            style="font-size: 40px; line-height: 40px"
-          >
-            <span class="text-primary">MobilXpert</span>
+    <div class="container-fluid bg-dark">
+      <div class="row d-flex p-3 justify-content-sm-between">
+        <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+          <a href=""  >
+            <h5 class="fw-bold text-primary mb-1">MobilXpert</h5>
           </a>
-          <p class="pt-3">
-            Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea
-            dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr
-            stet diam duo eos rebum ipsum diam ipsum elitr.
+          <p class="pt-3" style="font-size: 13px; color:rgb(200, 200, 200)">
+            Med nio år i branschen under bältet och många fler framöver är vårat primära syfte att du som kund lämnar butiken med ett leende på läpparna och en fungerande enhet!
           </p>
-          <div class="d-flex justify-content-start mt-5">
-            <a
-              class="btn btn-outline-primary rounded-circle text-center mr-4 px-1"
-              style="width: 38px; height: 38px"
-              href="#"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a
-              class="btn btn-outline-primary rounded-circle text-center mr-4 px-0"
-              style="width: 38px; height: 38px"
-              href="#"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a
-              class="btn btn-outline-primary rounded-circle text-center mr-4 px-0"
-              style="width: 38px; height: 38px"
-              href="#"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a
-              class="btn btn-outline-primary rounded-circle text-center mr-4 px-0"
-              style="width: 38px; height: 38px"
-              href="#"
-              ><i class="fab fa-instagram"></i
-            ></a>
+          <!-- Icons -->
+          <div class="d-flex justify-content-between mx-3">
+            <a class="btn btn-outline-primary rounded-circle text-center mx-auto px-1" style="width: 38px; height: 38px" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-outline-primary rounded-circle text-center mx-auto px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-primary rounded-circle text-center mx-auto px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-outline-primary rounded-circle text-center mx-auto px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-outline-primary rounded-circle text-center mx-auto px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5">
-          <h3 class="text-primary mb-4">Get In Touch</h3>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+          <h5 class="text-primary mb-4 fw-bold">Kontakta oss</h5>
           <div class="d-flex">
-            <h4 class="fa fa-map-marker-alt text-primary"></h4>
+            <i class="bi bi-geo-alt text-primary" style="font-size: 24px;"></i>
             <div class="pl-3">
-              <h5 class="text-white">Address</h5>
-              <p>16265 Storgatan 6, Stockholm</p>
+              <h6 style="font-size: 14px; color:rgb(200, 200, 200)">Address</h6>
+              <p style="font-size: 12px; color:rgb(200, 200, 200)">Stockholm 16265<br>Storgatan 6</p>
             </div>
           </div>
           <div class="d-flex">
-            <h4 class="fa fa-envelope text-primary"></h4>
+            <i class="bi bi-envelope text-primary" style="font-size: 24px;"></i>
             <div class="pl-3">
-              <h5 class="text-white">Email</h5>
-              <a
-                href="info@example.com"
-                class="text-white"
-                >info@example.com</a
-              >
+              <h6 style="font-size: 14px; color:rgb(200, 200, 200)">Email</h6>
+              <a href="info@example.com" style="font-size: 13px; color:rgb(200, 200, 200)">info@example.com</a>
             </div>
           </div>
           <div class="d-flex pt-3">
-            <h4 class="fa fa-phone-alt text-primary"></h4>
+            <i class="bi bi-telephone text-primary" style="font-size: 24px;"></i>
             <div class="pl-3">
-              <h5 class="text-white">Phone</h5>
-              <a
-                href="tel:+46 345 67890"
-                class="text-white"
-                >+46 345 67890</a
-              >
+              <h6 style="font-size: 14px; color:rgb(200, 200, 200)">Telefon</h6>
+              <a href="tel:+46 345 67890" style="font-size: 13px; color:rgb(200, 200, 200)">+46 345 67890</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5">
-          <h3 class="text-primary mb-4">Quick Links</h3>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+          <h5 class="text-primary mb-4 fw-bold">Länkar</h5>
           <div class="d-flex flex-column justify-content-start">
-            <a
-              class="text-white mb-2"
-              href="index.html"
-              ><i class="fa fa-angle-right mr-2"></i>Home</a
-            >
-            <a
-              class="text-white mb-2"
-              href="services.html"
-              ><i class="fa fa-angle-right mr-2"></i>Servises</a
-            >
-            <a
-              class="text-white mb-2"
-              href="blog.html"
-              ><i class="fa fa-angle-right mr-2"></i>Blog</a
-            >
-            <a
-              class="text-white mb-2"
-              href="about.html"
-              ><i class="fa fa-angle-right mr-2"></i>About Us</a
-            >
-            <a
-              class="text-white mb-2"
-              href="contact.html"
-              ><i class="fa fa-angle-right mr-2"></i>Contact</a
-            >
+            <a style="font-size:16px; margin-bottom:12px; color:rgb(200, 200, 200)" href="index.html"><i class="bi bi-record mr-2"></i>Hem</a>
+            <a style="font-size:16px; margin-bottom:12px; color:rgb(200, 200, 200)" href="services.html"><i class="bi bi-record mr-2"></i>Tjänster</a>
+            <a style="font-size:16px; margin-bottom:12px; color:rgb(200, 200, 200)" href="blog.html"><i class="bi bi-record mr-2"></i>Blog</a>
+            <a style="font-size:16px; margin-bottom:12px; color:rgb(200, 200, 200)" href="about.html"><i class="bi bi-record mr-2"></i>Om oss</a>
+            <a style="font-size:16px; margin-bottom:12px; color:rgb(200, 200, 200)" href="contact.html"><i class="bi bi-record mr-2"></i>Kontakt</a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5">
-          <h3 class="text-primary mb-4">Newsletter</h3>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+          <h5 class="text-primary mb-4 fw-bold">Nyhetsbrev</h5>
           <form action="">
             <div class="form-group">
-              <input
-                type="text"
-                class="form-control border-0 py-4"
-                placeholder="Your Name"
-                required="required"
-              />
+              <input type="text" class="form-control border-0 py-2" placeholder="Namn" required="required"/>
             </div>
             <div class="form-group">
-              <input
-                type="email"
-                class="form-control border-0 py-4"
-                placeholder="Your Email"
-                required="required"
-              />
+              <input type="email" class="form-control border-0 py-2" placeholder="E-postadress" required="required" />
             </div>
             <div>
-              <button
-                class="btn btn-primary btn-block border-0 py-3"
-                type="submit"
-              >
-                Submit Now
-              </button>
+              <button class="btn btn-primary btn-block border-0 py-2" type="submit">Prenumera nu!</button>
             </div>
           </form>
         </div>
       </div>
-      <div
-        class="container-fluid pt-5"
-        style="border-top: 2px solid rgba(108, 117, 127, 0.764)"
-      >
-        <p class="m-0 text-center text-white">
-          All Rights Reserved &copy;
-          <a
-            class="text-primary font-weight-bold"
-            href="#"
-            >MobilXpert</a
-          >2022
+      <div class="container-fluid py-3" style="border-top: 2px solid rgba(108, 117, 127, 0.764)">
+        <p class="m-0 text-center" style="color:rgb(200, 200, 200)">All Rights Reserved &copy;
+          <a class="text-primary font-weight-bold" href="#">MobilXpert</a> 2022
         </p>
       </div>
     </div>
     <!-- Footer End -->
 
-    <!-- VIDEO MODAL -->
-    <div
-      class="modal fade"
-      id="videoModal"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button
-              class="close"
-              data-dismiss="modal"
-            >
-              <span>&times;</span>
-            </button>
-            <iframe
-              src=""
-              frameborder="0"
-              height="350"
-              width="100%"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Back to Top -->
-    <a
-      href="#"
-      id="scroll_top"
-      class="btn btn-success p-3 isShowBtn isShowBtn_hide"
-    >
-      <i class="fa fa-angle-double-up"></i
-    ></a>
-    <!-- <a href="#" id="scroll_top"class="btn btn-success p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>  -->
+    <a href="#" id="scroll_top" class="btn btn-success p-3 isShowBtn isShowBtn_hide"><i class="fa fa-angle-double-up"></i></a>
 
     <script src="vendors/js/code.js"></script>
     <script src="vendors/js/jquery.js"></script>
@@ -528,10 +260,10 @@
       $('#year').text(new Date().getFullYear());
 
       // Configure Slider
-      $('.carousel').carousel({
-        interval: 6000,
-        pause: 'hover',
-      });
+      $('.carousel').carousel({interval: 6000,pause: 'hover',});
     </script>
+
+
+
   </body>
 </html>
