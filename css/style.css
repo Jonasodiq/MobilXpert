@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  background-color: #ecedea;
   overflow-x: hidden;
 }
 
@@ -15,27 +16,45 @@ body {
   padding-right: 1rem !important;
 }
 
-.carousel-item {
-  height: 450px;
+a {
+  color: white;
+}
+a.navbar-brand:hover, a.navbar-brand:active {
+  color: var(--blue);
 }
 
+a.nav-link:hover, a.nav-link:active {
+  color: var(--blue);
+}
+
+.carousel-item {
+  height: 650px;
+}
+
+.sale {
+ color: var(--red)
+}
 .carousel-image-1 {
-  background: url('../img/image1.jpg');
+  background: url('../img/ultra-5g.jpg');
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url('../img/image2.jpg');
+  background: url('../img/mobile.jpg');
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url('../img/image3.jpg');
+  background: url('../img/repare.jpg');
   background-size: cover;
 }
 
+.carousel-caption {
+  backdrop-filter: blur(4px);
+}
+
 #bg-box {
-  background-image: url(../img/lights.jpg);
+  background-image: url(../img/1920-modern.jpg);
   background-attachment: fixed;
   min-height: 200px;
   position: relative;
@@ -51,7 +70,22 @@ body {
 }
 
 #what-we-do {
-  background-image: url(../img/lights.jpg);
+  background-image: url(../img/1920-modern.jpg);
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+
+.banner {
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  backdrop-filter: blur(3px);
+  height: 250px;
+}
+
+#banner-2 {
+  background-image: url(../img/banner.jpg);
   background-attachment: fixed;
   min-height: 200px;
   position: relative;
@@ -59,19 +93,12 @@ body {
 
 #main-footer {
   background-color: #000;
-  color: #fff;
-}
-
-.banner {
-  background-image: url(../img/image1.jpg);
-  background-attachment: fixed;
+  color: #fff;;
 }
 
 .about-img {
-  width: 50%;
-  margin-top: -80px;
-  box-shadow: 2px;
-  /* border: 2px solid #222; */
+  width: 100%;
+  margin-top: 20px;
 }
 
 .isShowBtn {
