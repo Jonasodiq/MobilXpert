@@ -1,92 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="vendors/css/all.css"/>
+    <link rel="stylesheet" href="vendors/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>MobilXpert</title>
+  </head>
+  <body>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="vendors/css/all.css">
-  <link rel="stylesheet" href="vendors/bootstrap.css" >
-  <link rel="stylesheet" href="css/style.css">
-  <title>MobilXpert</title>
-</head>
-
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <div class="container">
-      <a href="index.html" class="navbar-brand">MobilXpert</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a
-              href="index.html"
-              class="nav-link"
-              >Home</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              href="services.html"
-              class="nav-link"
-              >Services</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              href="blog.html"
-              class="nav-link"
-              >Blog</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              href="about.html"
-              class="nav-link"
-              >About Us</a
-            >
-          </li>
-
-          <li class="nav-item active">
-            <a
-              href="contact.html"
-              class="nav-link"
-              >Contact</a
-            >
-          </li>
-        </ul>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <!-- Logo -->
+        <a href="index.html" class="navbar-brand font-weight-bold">MobilXpert</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto font-weight-bold">
+            <li class="nav-item"><a href="index.html" class="nav-link">Hem</a></li>
+            <li class="nav-item"><a href="services.html" class="nav-link">Tjänster</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">Om oss</a></li>
+            <li class="nav-item active"><a href="contact.html" class="nav-link">Kontakt</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+
   <!-- Banner -->
   <div class="banner">
     <div class="container py-5 text-center text-white">
-      <h1>Contact Us</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, in.</p>
+      <h1>Kontakta Oss</h1>
+      <p>Låt Oss Hjälpa Dig, Ditt Meddelande Är Värdefullt För Oss"</p>
     </div>
   </div>
   <!-- Info -->
-  <div class="contact-info bg-dark text-white">
+  <div class="contact-info bg-primary text-white">
     <div class="row">
       <div class="col-md-4 offset-md-2">
         <div class="icon-boxes my-5 d-flex">
-          <i class="fas fa-box fa-2x bg-gradient p-3 mr-3"></i>
-          <h4>Trucking Shipping <br> Servises</h4>
+          <i class="bi bi-box2 pr-5" style="font-size: 3rem;"></i>
+          <h4 class="mt-2">Professionell<br>Packning</h4>
         </div>
         <div class="icon-boxes my-5 d-flex">
-          <i class="fas fa-truck fa-2x bg-gradient p-3 mr-3"></i>
-          <h4>Speciality freight <br> and shipping servises</h4>
+          <i class="bi bi-truck pr-5" style="font-size: 4rem;"></i>
+          <h4 class="mt-3">Säker och Trygg<br>Varuleverans</h4>
         </div>
         <div class="icon-boxes my-5 d-flex">
-          <i class="fas fa-tools fa-2x bg-gradient p-3 mr-3"></i>
-          <h4>Logistics <br> management</h4>
+          <i class="bi bi-robot pr-5" style="font-size: 3rem;"></i>
+          <h4 class="mt-3">Teknologi och<br>datadrivenhet</h4>
         </div>
       </div>
-      <div class="col-md-6">
-        <img src="img/media.jpg" alt="" class="img-fluid">
+      <div class="col-md-6 d-flex justify-content-center align-self-center">
+        <img src="img/logistic.jpg" alt="" class="img-fluid">
       </div>
     </div>
   </div>
@@ -95,25 +66,23 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <div class="card p-3 bg-secondary text-white">
+          <div class="card p-3 bg-info text-white">
             <div class="card-body">
-              <h4>Get In Touch</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, ab.</p>
-              <h4>Adress</h4>
+              <h4>Kontakta oss</h4>
+              <p>Lorem ipsum dolor, sit amet</p>
+              <h4><i class="bi bi-geo-alt"  style="font-size: 34px; color:white;"></i> Adress</h4>
               <p>16265 Storgatan 6</p>
-              <h4>Email</h4>
-              <a href="niyazsons@gmail.com" class="text-white">niyazsons@gmail.com</a>
-              <p></p>
-              <h4>Phone</h4>
+              <h4><i class="bi bi-envelope-at"  style="font-size: 34px; color:white;"></i>  Email</h4>
+              <a href="niyazsons@gmail.com" class="text-white">email@gmail.com</a>
+              <h4><i class="bi bi-phone"  style="font-size: 34px; color:white;"></i> Phone</h4>      
               <a href="tel:+46733590055" class="text-white">+46733590055</a>
-              
             </div>
           </div>
         </div>
         <div class="col-md-8 ">
-          <div class="card p-3 bg-secondary text-white">
+          <div class="card p-3 bg-grey text-white">
             <div class="card-body">
-              <h3 class="text-center">Please fill out the form to contact us</h3>
+              <h3 class="text-center">Vänligen fyll i formuläret för att kontakta oss</h3>
               <hr>
               <div class="row">
                 <div class="col-md-6">
@@ -159,33 +128,33 @@
     </div>
   </div>
    <!-- Our staff -->
-   <div id="staff" class="my-5 bg-dark py-4 text-center text-white">
+   <div id="staff" class="bg-info py-4 text-center text-white">
     <div class="container">
-      <h1 class="py-3">Our staff</h1>
+      <h1 class="py-3">Vår personal</h1>
       <div class="row " >
         <div class="col-md-3 ">
-          <div class="card rounded-circle ">
-            <img src="img/person1.jpg" alt="" class="img-fluid rounded-circle">
+          <div class="card rounded-circle w-75 mx-auto">
+            <img src="img/person1.jpg" alt="" class="img-fluid rounded-circle ">
           </div>
           <h5 class="pt-3">Jane Doe</h4>
           <span>Marketing Manager</span>
         </div>
         <div class="col-md-3">
-          <div class="card rounded-circle">
+          <div class="card rounded-circle w-75 mx-auto">
             <img src="img/person2.jpg" alt="" class="img-fluid rounded-circle">
           </div>
           <h5 class="pt-3">Sara Williams</h4>
             <span>Business Manager</span>
         </div>
         <div class="col-md-3">
-          <div class="card rounded-circle">
+          <div class="card rounded-circle w-75 mx-auto">
             <img src="img/person3.jpg" alt="" class="img-fluid rounded-circle">
           </div>
           <h5 class="pt-3">John Doe</h4>
             <span>GEO</span>
         </div>
         <div class="col-md-3">
-          <div class="card rounded-circle">
+          <div class="card rounded-circle w-75 mx-auto">
             <img src="img/person4.jpg" alt="" class="img-fluid rounded-circle">
           </div>
           <h5 class="pt-3">Steve Smith</h4>
@@ -195,85 +164,83 @@
     </div>
   </div>
 
-   <!-- Footer Start -->
- <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
-  <div class="row pt-5">
-      <div class="col-lg-3 col-md-6 mb-5">
-          <a href="" class="font-weight-bold text-primary mb-4 p-0" style="font-size: 40px; line-height: 40px;">
-              <span class="text-primary">MobilXpert</span>
-          </a>
-          <p class="pt-3">Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr stet diam duo eos rebum ipsum diam ipsum elitr.</p>
-          <div class="d-flex justify-content-start mt-4">
-              <a class="btn btn-outline-primary rounded-circle text-center mr-4 px-0"
-                  style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
-              <a class="btn btn-outline-primary rounded-circle text-center mr-4 px-0"
-                  style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
-              <a class="btn btn-outline-primary rounded-circle text-center mr-4 px-0"
-                  style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-              <a class="btn btn-outline-primary rounded-circle text-center mr-4 px-0"
-                  style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
-          </div>
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark">
+    <div class="row d-flex p-3 justify-content-sm-between">
+      <div class="col-xl-4 col-md-6 col-sm-12 my-3">
+        <a href=""  >
+          <h5 class="fw-bold text-primary mb-1">MobilXpert</h5>
+        </a>
+        <p class="pt-3" style="font-size: 13px; color:rgb(200, 200, 200)">
+          Med nio år i branschen under bältet och många fler framöver är vårat primära syfte att du som kund lämnar butiken med ett leende på läpparna och en fungerande enhet!
+        </p>
+        <!-- Icons -->
+        <div class="d-flex justify-content-start my-3">
+          <a class="btn btn-outline-primary rounded-circle text-center mx-auto px-1" style="width: 38px; height: 38px" href="#"><i class="fab fa-twitter"></i></a>
+          <a class="btn btn-outline-primary rounded-circle text-center mx-auto px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-outline-primary rounded-circle text-center mx-auto px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-primary rounded-circle text-center mx-auto px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-instagram"></i></a>
+          <a class="btn btn-outline-primary rounded-circle text-center mx-auto px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-instagram"></i></a>
+        </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-5">
-          <h3 class="text-primary mb-4">Get In Touch</h3>
-          <div class="d-flex">
-              <h4 class="fa fa-map-marker-alt text-primary"></h4>
-              <div class="pl-3">
-                  <h5 class="text-white">Address</h5>
-                  <p>16265 Storgatan 6, Stockholm</p>
-              </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 my-3">
+        <h5 class="text-primary mb-4 fw-bold">Kontakta oss</h5>
+        <div class="d-flex">
+          <i class="bi bi-geo-alt text-primary" style="font-size: 24px;"></i>
+          <div class="pl-3">
+            <h6 style="font-size: 14px; color:rgb(200, 200, 200)">Address</h6>
+            <p style="font-size: 12px; color:rgb(200, 200, 200)">Stockholm 16265<br>Storgatan 6</p>
           </div>
-          <div class="d-flex">
-              <h4 class="fa fa-envelope text-primary"></h4>
-              <div class="pl-3">
-                  <h5 class="text-white">Email</h5>
-                  <a href="info@example.com" class="text-white">info@example.com</a>
-              </div>
+        </div>
+        <div class="d-flex">
+          <i class="bi bi-envelope text-primary" style="font-size: 24px;"></i>
+          <div class="pl-3">
+            <h6 style="font-size: 14px; color:rgb(200, 200, 200)">Email</h6>
+            <a href="info@example.com" style="font-size: 13px; color:rgb(200, 200, 200)">info@example.com</a>
           </div>
-          <div class="d-flex pt-3">
-              <h4 class="fa fa-phone-alt text-primary"></h4>
-              <div class="pl-3">
-                  <h5 class="text-white">Phone</h5>
-                  <a href="tel:+46 345 67890" class="text-white">+46 345 67890</a>
-              </div>
+        </div>
+        <div class="d-flex pt-3">
+          <i class="bi bi-telephone text-primary" style="font-size: 24px;"></i>
+          <div class="pl-3">
+            <h6 style="font-size: 14px; color:rgb(200, 200, 200)">Telefon</h6>
+            <a href="tel:+46 345 67890" style="font-size: 13px; color:rgb(200, 200, 200)">+46 345 67890</a>
           </div>
+        </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-5">
-          <h3 class="text-primary mb-4">Quick Links</h3>
-          <div class="d-flex flex-column justify-content-start">
-            <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
-            <a class="text-white mb-2" href="services.html"><i class="fa fa-angle-right mr-2"></i>Servises</a>
-            <a class="text-white mb-2" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Blog</a>
-            <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-            <a class="text-white mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact</a>
+      <div class="col-lg-2 col-md-4 col-sm-6 my-3">
+        <h5 class="text-primary mb-4 fw-bold">Länkar</h5>
+        <div class="d-flex flex-column justify-content-start">
+          <a style="font-size:16px; margin-bottom:12px; color:rgb(200, 200, 200)" href="index.html"><i class="bi bi-record mr-2"></i>Hem</a>
+          <a style="font-size:16px; margin-bottom:12px; color:rgb(200, 200, 200)" href="services.html"><i class="bi bi-record mr-2"></i>Tjänster</a>
+          <a style="font-size:16px; margin-bottom:12px; color:rgb(200, 200, 200)" href="blog.html"><i class="bi bi-record mr-2"></i>Blog</a>
+          <a style="font-size:16px; margin-bottom:12px; color:rgb(200, 200, 200)" href="about.html"><i class="bi bi-record mr-2"></i>Om oss</a>
+          <a style="font-size:16px; margin-bottom:12px; color:rgb(200, 200, 200)" href="contact.html"><i class="bi bi-record mr-2"></i>Kontakt</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+        <h5 class="text-primary mb-4 fw-bold">Nyhetsbrev</h5>
+        <form action="">
+          <div class="form-group">
+            <input type="text" class="form-control border-0 py-2" placeholder="Namn" required="required"/>
           </div>
+          <div class="form-group">
+            <input type="email" class="form-control border-0 py-2" placeholder="E-postadress" required="required" />
+          </div>
+          <div>
+            <button class="btn btn-primary btn-block border-0 py-2" type="submit">Prenumera nu!</button>
+          </div>
+        </form>
       </div>
-      <div class="col-lg-3 col-md-6 mb-5">
-          <h3 class="text-primary mb-4">Newsletter</h3>
-          <form action="">
-              <div class="form-group">
-                  <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
-              </div>
-              <div class="form-group">
-                  <input type="email" class="form-control border-0 py-4" placeholder="Your Email"
-                      required="required" />
-              </div>
-              <div>
-                  <button class="btn btn-primary btn-block border-0 py-3" type="submit">Submit Now</button>
-              </div>
-          </form>
-      </div>
-  </div>
-  <div class="container-fluid pt-5" style="border-top: 2px solid rgba(108, 117, 127, 0.764);;">
-      <p class="m-0 text-center text-white">
-          All Rights Reserved &copy; <a class="text-primary font-weight-bold" href="#">MobilXpert</a>2022
+    </div>
+    <div class="container-fluid py-3" style="border-top: 2px solid rgba(108, 117, 127, 0.764)">
+      <p class="m-0 text-center" style="color:rgb(200, 200, 200)">All Rights Reserved &copy;
+        <a class="text-primary font-weight-bold" href="#">MobilXpert</a> 2022
       </p>
+    </div>
   </div>
-</div>
-<!-- Footer End -->
+  <!-- Footer End -->
 
-<a href="#" id="scroll_top"class="btn btn-success p-3 isShowBtn isShowBtn_hide">
-  <i class="fa fa-angle-double-up"></i></a>
+    <a href="#" id="scroll_top" class="btn btn-success p-3 isShowBtn isShowBtn_hide"><i class="fa fa-angle-double-up"></i></a>
 
   <script src="vendors/js/code.js"></script>
   <script src="vendors/js/jquery.js"></script>
