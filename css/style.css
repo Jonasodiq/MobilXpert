@@ -35,12 +35,12 @@ a.nav-link:hover, a.nav-link:active {
  color: var(--red)
 }
 .carousel-image-1 {
-  background: url('../img/ultra-5g.jpg');
+  background: url('../img/ultra-5.jpg');
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url('../img/mobile.jpg');
+  background: url('../img/mobile-2.jpg');
   background-size: cover;
 }
 
