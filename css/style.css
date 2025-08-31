@@ -27,8 +27,16 @@ a.nav-link:hover, a.nav-link:active {
   color: var(--blue);
 }
 
+/* SHOWCASE SLIDER */
 .carousel-item {
   height: 650px;
+}
+
+.display-2 {
+  font-size: clamp(2rem,  7vw, 7rem);
+}
+.lead {
+  font-size: clamp(.5rem,  2vw, 2rem);
 }
 
 .sale {
@@ -53,11 +61,26 @@ a.nav-link:hover, a.nav-link:active {
   backdrop-filter: blur(4px);
 }
 
+/* Home-icons */
+.home-title {
+  font-size: clamp(1.5rem,  3vw, 3rem);
+}
+
+ /* Box  */
 #bg-box {
   background-image: url(../img/1920-modern.jpg);
   background-attachment: fixed;
   min-height: 200px;
   position: relative;
+}
+
+.box-title {
+  font-size: clamp(1.5rem,  4vw, 4rem);
+}
+
+.box-item {
+  /* color: #000; */
+  font-size: clamp(.5rem,  1.5vw, 1.5rem);
 }
 
 .dark-overlay {
@@ -69,11 +92,20 @@ a.nav-link:hover, a.nav-link:active {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* About-us */
+
+
+/* What we do */
 #what-we-do {
   background-image: url(../img/1920-modern.jpg);
   background-attachment: fixed;
   min-height: 200px;
   position: relative;
+}
+
+/* Gallery */
+.gallery-title {
+  font-size: clamp(1.5rem,  5vw, 4rem);
 }
 
 .banner {
@@ -129,4 +161,17 @@ a.nav-link:hover, a.nav-link:active {
 }
 .list-group-item {
   background-color: rgba(88, 213, 86, 0.209);
+}
+
+
+/* Page Servises */
+
+/* Banner */
+
+.banner-title {
+  font-size: clamp(1.8rem, 5vw, 5rem);
+}
+
+.banner-item {
+  font-size: clamp(.5rem, 2vw, 2rem);
 }
